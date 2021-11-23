@@ -5,10 +5,20 @@
 
 const saturday = new Map();
 
-saturday.set(8, 'walk the dogs');
-saturday.set(12, 'lunch');
-saturday.set(3, 'watch a movie');
+saturday.set(8, "walk the dogs");
+saturday.set(12, "lunch");
+saturday.set(3, "watch a movie");
 
 //Delete the element associated with the key 3.
+console.log(
+  "Did my key-value pair successfully delete -- 3?",
+  saturday.delete(3)
+);
 //Delete the element associated with the key 10.
+console.log(
+  "Did my key-value pair successfully delete -- 10?",
+  saturday.delete(10)
+);
 //Clear the entire saturday Map object.
+saturday.clear();
+console.log(saturday.size);

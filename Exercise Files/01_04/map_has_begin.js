@@ -5,9 +5,13 @@
 
 const saturday = new Map();
 
-saturday.set(8, 'walk the dogs');
-saturday.set(12, 'lunch');
-saturday.set(3, 'watch a movie');
+saturday.set(8, "walk the dogs");
+saturday.set(12, "lunch");
+saturday.set(3, "watch a movie");
 
 //Does our Map have a value associated with 4?
+const hasFour = saturday.has(4);
+console.log(hasFour);
 //Does our Map have a value associated with 8?
+const hasEight = saturday.has(8);
+console.log(hasEight);

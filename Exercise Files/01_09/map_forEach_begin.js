@@ -5,9 +5,15 @@
 
 const saturday = new Map();
 
-saturday.set(8, 'walk the dogs');
-saturday.set(12, 'lunch');
-saturday.set(3, 'watch a movie');
+saturday.set(8, "walk the dogs");
+saturday.set(12, "lunch");
+saturday.set(3, "watch a movie");
 
-//Using the forEach method, if a key is equal to 12, 
+//Using the forEach method, if a key is equal to 12,
 //console log the value of the key.
+
+saturday.forEach((value, key) => {
+  if (key === 12) {
+    console.log(`It's time for ${value}`);
+  }
+});

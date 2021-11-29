@@ -10,4 +10,12 @@ saturday.set(12, "lunch");
 saturday.set(3, "watch a movie");
 
 //What is the first key in your saturday Map object?
+const saturdayKeys = saturday.keys();
+const firstKey = saturdayKeys.next().value;
+console.log("The first key in our Saturday map is:", firstKey);
+
 //What is the second value in your saturday Map object?
+const saturdayValues = saturday.values();
+saturdayValues.next();
+const secondValue = saturdayValues.next().value;
+console.log("The second value in our Saturday map is:", secondValue);

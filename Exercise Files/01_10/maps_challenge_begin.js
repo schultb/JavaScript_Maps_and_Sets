@@ -15,7 +15,7 @@
 const bestMovies = new Map();
 bestMovies.set(2020, "Parasite");
 bestMovies.set(2019, "Green Book");
-bestMovies.set(2028, "The Shape of Water");
+bestMovies.set(2018, "The Shape of Water");
 bestMovies.set(2017, "Moonlight");
 bestMovies.set(2016, "Spotlight");
 bestMovies.set(2015, "Birdman");
@@ -36,7 +36,7 @@ console.log(bestMovie2015);
 
 //3. Does this list contain Best Picture from 2010? 2018?
 const movieRange = bestMovies.has(2010);
-const movieRange2 = bestMovies.has(2010);
+const movieRange2 = bestMovies.has(2018);
 console.log(movieRange, movieRange2);
 
 //4. How many films are included in this list?
